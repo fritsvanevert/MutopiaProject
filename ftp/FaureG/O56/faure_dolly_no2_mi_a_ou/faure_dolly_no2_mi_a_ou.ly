@@ -119,6 +119,47 @@ scoreARightPianoI = \relative c {
   <<b, d g>> r <<b, d f>>
   <<c f>> r   
   <<d f>>
+  
+  \mark "[12]"
+  r4 r <<f b,>>
+   << c f>> r <<d f>>
+  e  r << c a>>
+  b r r
+  g r8 g g'4~
+  g f e 
+  d-. r8 d <<c4 c'>> 
+  
+  \mark "[13]"
+  <<c c,>> <<b b'>> << a a,>>
+  <<bes bes'>> r8 bes, bes'4~
+  bes a g
+  f  d d
+  c r r
+  \clef bass
+  <<f, a c>> r <<f, a c >>
+  r << f,2 a d>>
+  
+  \mark "[14]"
+  << f,4 bes d>> r <<e, bes' c>>
+  r <<e,2 a c>>
+  << f,4 c' e>> r << f, b e>>
+  r <<bes d e>> r
+  <<a, c e>> r <<g, b e>>
+  r << g,2 c e>>
+  r4 << f,4 d'>> << f, d'>>
+  
+  \mark "[15]"
+  << f, d'>> <<f, g d' >> << f, gis d'>>
+  r <<e, g cis>> <<e, g cis>>
+  r << d, fis c' >> <<d, fis c'>>
+  \clef G
+  d2. 
+  es 
+  f e4 r r
+  \clef bass
+  
+  \mark "[16]"
+  
 }
 
 scoreALeftPianoI = \relative c {
@@ -221,8 +262,45 @@ scoreALeftPianoI = \relative c {
   f r  fis 
   g r gis
   a r b
+  
+  %line 12
+   r r g
+   a r b
+   c r fis,
+   g r r
+   R4*3
+   << e4 e,>> r r
+   <<fis fis' >> r r
    
-     
+   %line 13
+   << f f,>> r r
+   <<c'2. e,>>
+   <<f d'>>
+   f
+   <<e4 g>> r r
+   r f, r
+   bes r r
+   
+   %line 14
+   r g r
+   a r r 
+   r g r
+   << c c,>> r fis 
+   r g r
+   <<c c, >> r r
+   <<bes bes'>> r r
+   
+   % line 15
+   R4*3
+   << a4 a, >>  r r
+   d r r
+   g << g' bes>> <<g bes>>
+   <<des,  des, >> << g' bes>> << g bes>>
+   <<c, c,>> <<g'' bes>> <<g bes>>
+   <<g bes>> r r
+   
+   % line 16
+   
   
 }
 scoreARightPianoII = \relative c'' {
